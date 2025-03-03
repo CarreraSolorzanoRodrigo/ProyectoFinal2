@@ -1,0 +1,7 @@
+# | Año | Federación | Nombre | Monto | País | Departamento | Provincia | Ubigeo
+==========================================================================================
+1 | 2013 | AJEDREZ | INGRID YADYRA | S/ 1000.00 | PERU | LIMA | LIMA | 150113
+2 | 2013 | AJEDREZ | MITZY MISHEL | S/ 600.00 | PERU | LIMA | LIMA | 150101
+3 | 2013 | AJEDREZ | ANN LINDSAY | S/ 1000.00 | PERU | LIMA | LIMA | 150115
+4 | 2013 | AJEDREZ | KEVIN JOEL | S/ 600.00 | PERU | LIMA | LIMA | 150142
+5 | 2013 | AJEDREZ | CRISTHIAN ARNALDO | S/ 800.00 | PERU | LIMA | LIMA | 150101
