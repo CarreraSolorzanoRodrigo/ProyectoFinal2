@@ -81,7 +81,7 @@ public void generarReporte(int opcion, String filtro, int cantidad) {
                     case 3 -> d.getDistrito().equalsIgnoreCase(filtro);
                     case 4 -> d.getFederacion().equalsIgnoreCase(filtro);
                     case 5 -> d.getPais().equalsIgnoreCase(filtro);
-                    case 6 -> Math.abs(d.getMonto() - montoFiltro) < 0.01; // Compara con tolerancia
+                    case 6 -> Math.abs(d.getMonto() - montoFiltro) < 0.01;
                     case 7 -> d.getDepartamento().equalsIgnoreCase(filtro);
                     default -> false;
                 })
