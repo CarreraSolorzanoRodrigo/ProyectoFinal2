@@ -1,4 +1,4 @@
-# | Año | Federación | Nombre | Monto | País | Departamento | Provincia | Ubigeo
+# | Año | Federacion | Nombre | Monto | Pais | Departamento | Provincia | Ubigeo
 ==========================================================================================
 1 | 2013 | AJEDREZ | INGRID YADYRA | S/ 1000.00 | PERU | LIMA | LIMA | 150113
 2 | 2013 | AJEDREZ | MITZY MISHEL | S/ 600.00 | PERU | LIMA | LIMA | 150101

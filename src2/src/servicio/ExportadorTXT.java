@@ -8,7 +8,7 @@ import java.util.List;
 public class ExportadorTXT {
     public static void exportarReporte(String nombreArchivo, List<Deportista> deportistas) {
         try (FileWriter writer = new FileWriter(nombreArchivo)) {
-            writer.write("# | Año | Federación | Nombre | Monto | País | Departamento | Provincia | Ubigeo\n");
+            writer.write("# | Año | Federacion | Nombre | Monto | Pais | Departamento | Provincia | Ubigeo\n");
             writer.write("==========================================================================================\n");
 
             int index = 1;

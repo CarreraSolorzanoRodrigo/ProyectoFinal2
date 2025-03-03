@@ -30,7 +30,7 @@ public class CSVReader {
 
                 String[] datos = linea.split(";");
                 if (datos.length < 17) {
-                    System.out.println("Línea ignorada (no tiene suficientes datos): " + linea);
+                    System.out.println("Linea ignorada (no tiene suficientes datos): " + linea);
                     continue;
                 }
 
@@ -52,7 +52,7 @@ public class CSVReader {
                     deportistas.add(deportista);
 
                 } catch (NumberFormatException e) {
-                    System.out.println("Error en formato numérico en la línea: " + linea);
+                    System.out.println("Error en formato numerico en la linea: " + linea);
                 }
             }
 
@@ -93,8 +93,8 @@ public void generarReporte(int opcion, String filtro, int cantidad) {
         } else {
             System.out.println("\nReporte Generado:");
             System.out.printf("%-5s %-6s %-20s %-20s %-10s %-12s %-15s %-15s %-10s\n", 
-                    "#", "Año", "Nombre", "Federación", "Monto", "País", "Departamento", "Provincia", "Ubigeo");
-            System.out.println("============================================================================================================");
+                    "#", "Año", "Nombre", "Federacion", "Monto", "Pais", "Departamento", "Provincia", "Ubigeo");
+            System.out.println("========================================================================================================================");
 
             int index = 1;
             for (Deportista d : reporteActual) {
@@ -103,7 +103,7 @@ public void generarReporte(int opcion, String filtro, int cantidad) {
             }
         }
     } catch (NumberFormatException e) {
-        System.out.println("El filtro de monto no es un número válido.");
+        System.out.println("El filtro de monto no es un numero valido.");
     }
 }
 
